@@ -1,8 +1,4 @@
-"""
-This script serves to test the connection with the timesclaedb database
-
-"""
-
+# This script serves to test the connection with the timesclaedb database
 from os import name
 import numpy as np
 from random import uniform
