@@ -1,9 +1,9 @@
-# This script serves to test the connection with the timesclaedb database
-from os import name
+"""
+This script serves to test the connection with the timesclaedb database
+"""
 import numpy as np
 from random import uniform
 import time
-from numpy.lib.function_base import insert
 import psycopg2
 from datetime import datetime
 
