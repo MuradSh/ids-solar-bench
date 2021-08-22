@@ -42,6 +42,7 @@ def main():
                           id=1,
                           client=mqtt.Client("Panel_Current"),
                           broker=mqttBroker)
+
     sensor_solar.send()
 
 
