@@ -1,2 +1,3 @@
 pip install psycopg2
 pip install asyncpg
+pip install paho-mqtt
