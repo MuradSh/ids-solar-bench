@@ -4,6 +4,8 @@ import ast
 import psycopg2
 
 # create classes
+
+
 class receiver:
 
     def __init__(self, name, client, broker, dbconn):
@@ -49,7 +51,6 @@ class receiver:
 
 
 def main():
-
     CONNECTION = "postgres://postgres:password@localhost:5432/iot_demo"
     conn = psycopg2.connect(CONNECTION)
 

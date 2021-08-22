@@ -19,7 +19,6 @@ def createTables(conn):
 
 
 def main():
-
     CONNECTION = "postgres://postgres:password@localhost:5432/iot_demo"
     conn = psycopg2.connect(CONNECTION)
     cursor = createTables(conn)
