@@ -21,7 +21,7 @@ class receiver:
     def listen(self):
         self.client.connect(self.broker)
         self.client.loop_start()
-        self.client.subscribe("sensor_data_124")
+        self.client.subscribe("sensor_data_ids")
         self.client.on_message = self.on_message
         time.sleep(1000)
         self.client.loop_end()

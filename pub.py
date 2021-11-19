@@ -23,7 +23,7 @@ class sensor:
                     'sensor id': self.id,
                     'measurement': y}
 
-            self.client.publish("sensor_data_124", str(data))
+            self.client.publish("sensor_data_ids", str(data))
             print("Just published " + str(data))
             time.sleep(1)
 
