@@ -29,14 +29,7 @@ class sensor:
 
 
 def main():
-    mqttBroker = "mqtt.eclipseprojects.io"
-
-    # other online brokers to try
-    # mqttBroker = "test.mosquitto.org"
-    # mqttBroker = "broker.hivemq.com"
-
-    # if you have mosquitto installed in your local computer, you can run mosquitto.exe which will the broker on localhost:1883
-    #mqttBroker = "localhost"
+    mqttBroker = mqtt.eclipseprojects.io
 
     sensor_solar = sensor(type='electrical',
                           id=1,
